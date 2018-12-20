@@ -9,11 +9,20 @@ SE CONOCE SU LISTA DE ADYACENCIA
 NOTA: LA LISTA DE ADYACENCIA SE IMPLEMENTA MEDIANTE
 UN ARREGLO QUE CONTIENE APUNTADORES A LISTAS ENLAZADAS
 DE LOS VERTICES ADYACENTES:
-	Lista[N]
-	0 [0|·]-> NULL		NO HAY VERTICE CERO
-	1 [1|·]-> [x|·]-> ··· -> [y|·]-> NULL  
-	1 [2|·]-> [f|·]-> ··· -> [g|·]-> [h|·]-> NULL
-	·
-	·
-	·
-   n-1 [n-1|·]-> [p|·]-> ··· -> [q|·]-> NULL
+
+Lista[N]
+
+0 [0|·]-> NULL		NO HAY VERTICE CERO
+
+1 [1|·]-> [x|·]-> ··· -> [y|·]-> NULL  
+
+1 [2|·]-> [f|·]-> ··· -> [g|·]-> [h|·]-> NULL
+
+·
+
+·
+
+·
+
+n-1 [n-1|·]-> [p|·]-> ··· -> [q|·]-> NULL
+---

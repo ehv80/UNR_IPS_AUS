@@ -1,0 +1,20 @@
+/* IMPLEMENTACIONES DE MENUES EN PANTALLA */
+
+/*ARCHIVOS DE CABECERA*/
+#include<stdio>
+
+/* PROTOTIPO DE FUNCIONES */
+void mostrar_menu_principal(void);
+
+
+/* FUNCIONES */
+
+void mostrar_menu_principal(void)
+{
+	printf("|----------------MENU___PRINCIPAL----------------|");
+	printf("|	[1]	CREAR LISTA			 |");
+	printf("|	[2]	INSERTAR ELEMENTO		 |");
+	printf("|	[3]	SUPRIMIR ELEMENTO		 |");
+	printf("|	[4]	ELEMENTO		 |");
+	printf("|	[5]	SUPRIMIR ELEMENTO		 |");
+	
